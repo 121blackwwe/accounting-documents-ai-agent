@@ -3,6 +3,7 @@ import json
 import os
 import subprocess
 from typing import Sequence
+import sys
 import uuid
 
 from dotenv import find_dotenv, load_dotenv
@@ -17,7 +18,11 @@ from mail import fetch_recent_emails
 
 load_dotenv(find_dotenv())
 
-REQUISITES_FILE = "Карточка НТЦ Татнефть.docx"
+
+try:
+    REQUISITES_FILE = sys.argv[1]
+except IndexError:
+    exit("Передай аргументом файл с реквизитами")
 
 
 @dataclass
@@ -120,6 +125,7 @@ class LLMAgent:
                 "configurable": {"thread_id": uuid.uuid4().hex}}
 
     def upload_file(self, file):
+        print(f"upload file {file} to LLM")
         file_uploaded_id = self._model.upload_file(file).id_  # type: ignore
         return file_uploaded_id
 
@@ -166,7 +172,7 @@ def main():
         "Если пользователь указывает в качетсве работы курс, то для документов берём одну работу, в точности такую "
         "\"Обучение одного сотрудника на курсе «Хардкорная веб-разработка»\", стоимостью 170 тыс руб."
         "Никакие данные не придумывай, всё необходимое строго запроси у "
-        "пользователя. Мои реквизиты заказчика не запрашивай, они есть в моём коде. "
+        "пользователя. Мои реквизиты не запрашивай, они есть в моём коде. "
         "Имя и отчество подписанта сокращаем до одной первой буквы, "
         "например, Иванов А.Е. "
         "Название компании оборачиваем в кавычки ёлочкой, например, "

@@ -71,7 +71,7 @@
   table.cell(colspan: 5, stroke: none, align: right)[*Всего к оплате:*], table.cell(align: center)[#num(invoice_overall_sum)],
 )
 
-Всего наименований #invoice_jobs_count , на сумму #num(invoice_overall_sum) (#ru-words(invoice_overall_sum)) руб ноль копеек. Оплачивая настоящий счёт, вы присоединяетесь к Оферте, опубликованной на сайте https://to.digital/oferta.pdf.
+Всего наименований #invoice_jobs_count , на сумму #num(invoice_overall_sum) (#ru-words(invoice_overall_sum)) руб 00 копеек. Оплачивая настоящий счёт, вы присоединяетесь к Оферте, опубликованной на сайте https://to.digital/oferta.pdf.
 
 #block(above: 3em)[
   ИП Голобурдин #text("__________________________") Голобурдин А.А.
